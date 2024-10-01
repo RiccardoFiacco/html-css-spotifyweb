@@ -41,6 +41,12 @@ img {
 .w-13{
     width: 13%;
 }
+.w-81{
+    width: 81%;
+}
+.w-56{
+    width: 56%;
+}
 /* color rules */
 .bgcolor-footer{
     background-color:#282828;
