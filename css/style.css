@@ -55,6 +55,12 @@ img {
 .w-30{
     width: 523px;
 }
+.w-50p{
+    width: 50px;
+}
+.h-50p{
+    height: 50px;
+}
 .w-13{
     width: 206px;
 }
@@ -167,6 +173,9 @@ img {
 }
 .fonts-30{
     font-size: 30px;
+}
+.fonts-40{
+    font-size: 40px;
 }
 /* RESPOSIVE */
 
