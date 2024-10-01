@@ -24,7 +24,9 @@ img {
 .debug {
   border: 1px dashed black;
 }
-
+.debug2 {
+    border: 1px dashed red;
+  }
 /*viewport rules*/
 .vh-100 {
   height: 100vh;
@@ -33,7 +35,13 @@ img {
 .w-230{
     width: 230px;
 }
-
+/* color rules */
+.bgcolor-footer{
+    background-color:#282828;
+}
+.color-white{
+    color: white;
+}
 /* padding rules */
 .paddingt-20{
     padding-top: 20px;
