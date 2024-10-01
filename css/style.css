@@ -35,6 +35,12 @@ img {
 .w-230{
     width: 230px;
 }
+.w-30{
+    width: 30%;
+}
+.w-13{
+    width: 13%;
+}
 /* color rules */
 .bgcolor-footer{
     background-color:#282828;
@@ -52,6 +58,9 @@ img {
 /* flex rules */
 .flex {
   display: flex;
+}
+.flex-wrap {
+    flex-wrap: wrap;
 }
 .flex-column {
   flex-direction: column;
