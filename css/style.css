@@ -243,4 +243,7 @@ img {
   .w-50 {
     width: 50px;
   }
+  .remove{
+    display: none;
+  }
 }
