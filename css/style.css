@@ -280,8 +280,8 @@ img {
 a.color-lightgray:hover{
   color: white;
 }
-.fonts-20-hover:hover{
-  
+.fonts-40-hover:hover{
+  font-size: 40px;
 }
 
 
