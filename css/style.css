@@ -24,6 +24,9 @@ img {
   --max: 100%;
   --sidebar: 190px;
 }
+.none-until-575{
+  display: none;
+}
 /* container rules */
 .container-sidebar {
   width: var(--sidebar);
@@ -245,5 +248,11 @@ img {
   }
   .remove{
     display: none;
+  }
+  .none-575{
+    display: none;
+  }
+  .none-until-575{
+    display:block;
   }
 }
