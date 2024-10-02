@@ -91,6 +91,9 @@ img {
 .bgcolor-lightgreen{
   background-color: rgba(173, 255, 47, 100%);
 }
+.bgcolor-light-dark{
+  background-color: #141922;
+}
 .bgcolor-footer {
   background-color: #282828;
 }
@@ -155,8 +158,14 @@ img {
 .padding-10-20{
   padding: 10px 30px;
 }
+.paddingt-40{
+  padding-top: 40px;
+}
 .borderl-1-solid-light-green{
   border-left: 3px solid rgba(173, 255, 47, 100%);
+}
+.borderb-1-solid-light-green{
+  border-bottom: 2px solid rgba(173, 255, 47, 100%);
 }
 /* margin rules */
 .marginlr-8 {
@@ -277,7 +286,9 @@ img {
   .flex-wrap-media-sm {
     flex-wrap: wrap;
   }
-
+  .w-1_3{
+    width: calc(100%/3 - 24px);
+  }
   .w-100-media {
     width: 100%;
   }
@@ -306,5 +317,8 @@ img {
   }
   .paddingl-xsm-13{
     padding-left:13px;
+  }
+  .w-1_4{
+    width: calc(100%/4 - 24px);
   }
 }
