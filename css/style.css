@@ -108,7 +108,9 @@ img {
 .color-semigrey{
   color: #717171;
 }
-
+.bgcolor-near-black{
+  background-color: #080B12;
+}
 /* padding rules */
 .paddingt-20 {
   padding-top: 20px;
@@ -136,6 +138,9 @@ img {
 }
 .paddingb-15 {
   padding-bottom: 15px;
+}
+.padding-13-40{
+  padding: 13px 40px;
 }
 /* margin rules */
 .marginlr-8 {
