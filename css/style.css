@@ -111,6 +111,10 @@ img {
 .paddingt-30{
     padding-top: 30px;
 }
+/* margin rules */
+.marginlr-8{
+    margin: 0 8px;
+}
 /* flex rules */
 .flex {
   display: flex;
