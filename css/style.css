@@ -92,6 +92,10 @@ img {
 .bg-color-black {
   background-color: black;
 }
+.color-semigrey{
+  color: #717171;
+}
+
 /* padding rules */
 .paddingt-20 {
   padding-top: 20px;
@@ -111,9 +115,18 @@ img {
 .paddingt-30 {
   padding-top: 30px;
 }
+.paddingt-15 {
+  padding-top: 15px;
+}
+.paddingb-15 {
+  padding-bottom: 15px;
+}
 /* margin rules */
 .marginlr-8 {
   margin: 0 8px;
+}
+.margint-auto {
+  margin-top: auto;
 }
 /* flex rules */
 .flex {
