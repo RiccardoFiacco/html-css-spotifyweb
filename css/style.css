@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Geologica:wght@100..900&display=swap');
 *,
 *::before,
 *::after {
@@ -7,7 +7,7 @@
   padding: 0;
 }
 html {
-  font-family: "Poppins", sans-serif;
+  font-family: "Geologica", sans-serif;
 }
 a {
   color: currentColor;
@@ -96,6 +96,9 @@ img {
 .color-white {
   color: white;
 }
+.color-lightgray{
+  color: #7D7F84; 
+}
 .bg-color-gray {
   background-color: rgb(63, 63, 63);
 }
@@ -110,6 +113,9 @@ img {
 }
 .bgcolor-near-black{
   background-color: #080B12;
+}
+.bg-color-acquadark{
+  background-color :#141922
 }
 /* padding rules */
 .paddingt-20 {
@@ -139,8 +145,8 @@ img {
 .paddingb-15 {
   padding-bottom: 15px;
 }
-.padding-13-40{
-  padding: 13px 40px;
+.padding-10-20{
+  padding: 10px 30px;
 }
 /* margin rules */
 .marginlr-8 {
@@ -181,6 +187,9 @@ img {
 .column-gap-15 {
   column-gap: 15px;
 }
+.column-gap-24 {
+  column-gap: 24px;
+}
 .column-gap-5 {
   column-gap: 5px;
 }
@@ -209,6 +218,9 @@ img {
 .radius-999 {
   border-radius: 999px;
 }
+.border-white{
+  border: 1px solid white;
+}
 /* line rules */
 .lineh-5 {
   line-height: 5px;
@@ -227,6 +239,9 @@ img {
 }
 .fonts-40 {
   font-size: 40px;
+}
+.fonts-12{
+  font-size: 12px;
 }
 /* RESPOSIVE */
 
