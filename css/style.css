@@ -275,6 +275,16 @@ img {
 .fonts-14{
   font-size: 14px;
 }
+/* hover rules */
+
+a.color-lightgray:hover{
+  color: white;
+}
+.fonts-20-hover:hover{
+  
+}
+
+
 /* RESPOSIVE */
 
 @media (max-width: 991.99px) {
