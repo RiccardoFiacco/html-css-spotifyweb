@@ -255,4 +255,7 @@ img {
   .none-until-575{
     display:block;
   }
+  .paddingl-xsm-13{
+    padding-left:13px;
+  }
 }
