@@ -142,10 +142,10 @@ img {
   margin-top: auto;
 }
 /* position rules */
-.postion-r{
+.position-r{
   position: relative;
 }
-.postion-a{
+.position-a{
   position: absolute;
 }
 /* flex rules */
