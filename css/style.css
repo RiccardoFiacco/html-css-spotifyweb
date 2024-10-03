@@ -38,9 +38,10 @@ img {
 .mg-auto {
   margin: 0 auto;
 }
-.overflow-y-scroll{
-  overflow-y: auto;
+.overflow-scroll{
+  overflow-y: scroll;
 }
+
 /* debug rules */
 .debug {
   border: 1px dashed black;
@@ -64,6 +65,9 @@ img {
 }
 .h-42p {
   height: 42px;
+}
+.h-100 {
+  height: 100%;
 }
 .w-30 {
   width: 523px;
@@ -103,6 +107,9 @@ img {
 }
 .w-100{
   width: 100%;
+}
+.h-0{
+  height: 0;
 }
 /* color rules */
 
@@ -214,6 +221,9 @@ img {
 .left-0{
   left: 0;
 } 
+.right-0{
+  right: 0;
+}
 .opacity-0{
   opacity: 0;
 }
@@ -322,8 +332,9 @@ a.color-lightgray:hover{
   transform:scale(1.2);
 }
 
-.position-a:hover{
-  display: block;
+.k:hover .opacity-0{
+  opacity: 1;
+  transition: 3ms;
 }
 
 .display-hover:hover .hover-shadow{
