@@ -6,8 +6,8 @@
     <link rel="stylesheet" href="./css/style.css">
     <script src="https://kit.fontawesome.com/70a5821a0f.js" crossorigin="anonymous"></script>
 </head>
-<body>
-    <div class="vh-100 flex flex-column bgcolor-light-dark relative">
+<body class="vh-100">
+    <div class=" flex flex-column bgcolor-light-dark relative">
 
         <div class=" grow-1 flex ">
             <header class="debug w-230p shrink-0 w-50 bg-color-black paddingt-20 color-white flex flex-column">
@@ -15,15 +15,18 @@
                     <a href="#"><img class="w-75 paddingl-19 none-575" src="./img/logo.svg" alt=""></a>
                     <a href="#"><img class="w-75 paddingl-19 none-until-575" src="./img/logo-small.svg" alt=""></a>
                         <div class="flex fonts-20 flex-column row-gap-12 paddingt-30">
-                            <div class="borderl-1-solid-light-green">
+                            <div class="postion-r">
+                                <div class="h-42 w-13 h-35px w-3px bgcolor-lightgreen position-a"></div>
                                 <a href="#"><i class="fa-solid fa-house paddingr-10 paddingl-19"></i></a>
                                 <a href="#"an class="remove color-lightgray">Home</a>
                             </div>
-                            <div>
+                            <div class="postion-r">
+                                <div class="h-42 w-13 h-35px w-3px bgcolor-lightgreen position-a display-none"></div>
                                 <a href="#"><i class="fa-solid fa-magnifying-glass paddingr-10 paddingl-19 remove"></i></a>
                                 <a href="#" class="remove color-lightgray">Cerca</a>
                             </div>
-                            <div>
+                            <div class="postion-r">
+                                <div class="h-42 w-13 h-35px w-3px bgcolor-lightgreen position-a display-none"></div>
                                 <a href="#"><i class="fa-solid fa-lines-leaning paddingr-10 paddingl-19 remove"></i></a>
                                 <a href="#" class="remove color-lightgray">La tua libreria</a>
                             </div>
@@ -68,7 +71,7 @@
                 <div class=" flex row-reverse paddingb-20 paddingt-20 bgcolor-near-black fonts-20-hover">
                     <a href="#" class="color-white border-white radius-999 padding-10-20"><span class="fonts-12 ">EFFETTUA L'UPGRADE</span></a>
                 </div>
-                <overflow class="overflow-y-auto">
+                <div>
                 <div class="main bg-color-acquadark fonts-14">
                     <div id="navbar main" class="flex justify-center column-gap-24 paddingt-23 paddingb-8 wrap-md row-media-gap-40">
                         <a href="#" class="color-lightgray borderb-1-solid-light-green flex justify-center w-1_5 w-1_3 w-1_4">
@@ -92,7 +95,7 @@
                     </div>
                 </div>
 
-                <div class="paddingl-19 paddingt-40 bgcolor-light-dark">
+                <div class="paddingl-19 paddingt-40 bgcolor-light-dark overflow-y-scroll height-77vh">
 
                     <h1 class="color-white paddingb-20">Recently Played</h1>
                     <div class="flex flex-start column-gap-15 wrap-md">
@@ -155,7 +158,7 @@
                             <h3 class="color-white">Daily mix 1</h3>                            
                         </div>
                     </div>
-                </overflow>
+                </div>
                 </div>
             </div>
         </div>

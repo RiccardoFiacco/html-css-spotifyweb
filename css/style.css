@@ -27,12 +27,19 @@ img {
 .none-until-575{
   display: none;
 }
+
+.display-none{
+  display: none;
+}
 /* container rules */
 .container-sidebar {
   width: var(--sidebar);
 }
 .mg-auto {
   margin: 0 auto;
+}
+.overflow-y-scroll{
+  overflow-y: scroll;
 }
 /* debug rules */
 .debug {
@@ -44,6 +51,9 @@ img {
 /*viewport rules*/
 .vh-100 {
   height: 100vh;
+}
+.height-77vh{
+  height: 77vh;
 }
 /* width rules */
 .w-230p {
@@ -280,10 +290,13 @@ img {
 a.color-lightgray:hover{
   color: white;
 }
+
 .fonts-40-hover:hover{
   font-size: 40px;
 }
-
+.display-none:hover{
+  display: inline;
+}
 
 /* RESPOSIVE */
 
