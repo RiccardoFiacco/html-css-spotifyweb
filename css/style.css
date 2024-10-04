@@ -354,7 +354,7 @@ a.color-lightgray:hover{
   .w-1_5{
     width: calc(100%/5 - 24px);
   }
-  .w-1_4{
+  .w-1_4-md{
     width: calc(100%/4 - 15px);
   }
   .row-media-gap-40{
@@ -365,18 +365,16 @@ a.color-lightgray:hover{
   .flex-wrap-media-sm {
     flex-wrap: wrap;
   }
-  .w-1_3{
+  .w-1_3-sm{
     width: calc(100%/3 - 24px);
   }
-  .w-1_2{
+  .w-1_2-sm-xsm{
     width: calc(100%/2 - 15px);
   }
   .w-100-media {
     width: 100%;
   }
-  .aaaaaaaaaa{
-    color: green;
-  }
+  
 }
 @media (max-width: 575.99px) {
   .flex-wrap-media-xsm {
@@ -403,7 +401,7 @@ a.color-lightgray:hover{
   .w-1_4{
     width: calc(100%/4 - 24px);
   }
-  .w-1_2{
+  .w-1_2-sm-xsm{
     width: calc(100%/2 - 15px);
   }
 }
